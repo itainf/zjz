@@ -1,0 +1,70 @@
+ page{  
+  height: 100%;  
+  }  
+  .view{  
+  width: 100%;  
+  height: 100%;  
+  }  
+  .window{  
+  width: 100%;  
+  height: 100%;  
+  position: absolute;  
+  }  
+  .window-2{  
+  display: flex;  
+  align-items: center;  
+  flex-direction: row;  
+  }  
+  .camera{  
+  width: 100%;  
+  height: 100%;  
+  }  
+
+  .cover-1{  
+  width: 150rpx;  
+  height: 150rpx;  
+  border-radius: 150rpx;  
+  background-color: #dedcdc;  
+  display: flex;  
+  flex-direction: row;  
+  align-items: center;  
+  justify-content: center;  
+  position: absolute;  
+  bottom: 60rpx;  
+  left: 300rpx;  
+  }  
+  .cover-3{  
+  position: absolute;  
+  bottom: 105rpx;  
+  left:135rpx;  
+  }  
+  .cover-9{  
+  width:413rpx;
+  height:626rpx;
+   
+  }  
+  button{  
+  margin: 0 10rpx;  
+  width: 100%;  
+  }  
+  .cover-4{  
+  position: absolute;  
+  top: 60rpx;  
+  right:40rpx;  
+  }  
+  .cover-2{  
+  width: 110rpx;  
+  height: 110rpx;  
+  border-radius: 110rpx;  
+  background-color: #ffffff;  
+  display: flex;  
+  flex-direction: row;  
+  align-items: center;  
+  justify-content: center;  
+  color:#da2121;  
+  font-size: 32rpx;  
+  }  
+
+  .flex-wrp {display: flex;
+   align-items: center; 
+  }

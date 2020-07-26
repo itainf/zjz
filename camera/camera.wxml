@@ -1,0 +1,26 @@
+<view class="view"> 
+   <view class="window"style="text-align:center">  
+      <image class="cover-9" style="justify-content:center" src="{{tempImagePath}}" bindtap="img" wx:if="{{type=='takePhoto'}}"></image>
+       <view class="window-2" style="justify-content:center">   
+          <view class="flex-wrp"  style="flex-direction:row">
+              <view style="width:20px;height:20px;margin-left: 20rpx;border-radius:50%;background-color:red;"></view>
+              <view style="width:20px;height:20px;margin-left: 20rpx;border-radius:50%;background-color:blue;"></view>
+              <view style="width:20px;height:20px;margin-left: 20rpx;border-radius:50%;background-color:white; border:0.5rpx solid #808080;"></view>
+          </view>
+      </view> 
+      <view class="window-2">  
+         <button class='btn'  bindtap="Photo">保存图片到相册</button>
+      </view> 
+      <loading hidden="{{loadingHidden}}">正在加载</loading> 
+    </view> 
+
+  <camera class="camera" device-position="{{device?'back':'front'}}" wx:if="{{camera}}" flash="off">  
+      <cover-view class="cover-1" bindtap="camera">  
+      <cover-view class="cover-2">  
+      <cover-view class="cover-5" wx:if="{{type=='startRecord'&&startRecord}}">{{time}}S</cover-view>  
+      </cover-view>  
+      </cover-view>  
+      <cover-image class="cover-3" src="/assets/xx2.png" style="width:60rpx;height:60rpx;" bindtap="close"></cover-image>  
+      <cover-image class="cover-4" src="/assets/zh.png" style="width:80rpx;height:60rpx;" bindtap="devicePosition"></cover-image>  
+  </camera>  
+  </view>  

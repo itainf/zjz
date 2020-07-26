@@ -1,0 +1,19 @@
+<view class='photo-footer-fixed' style="" >
+   <view class="flex-wrp"  style="flex-direction:row">
+      <view style="float:left;margin-left: 20rpx;width:60%">支持背景 </view>
+      <view class="flex-wrp"  style="flex-direction:row">
+          <view style="width:20px;height:20px;margin-left: 20rpx;border-radius:50%;background-color:red;"></view>
+          <view style="width:20px;height:20px;margin-left: 20rpx;border-radius:50%;background-color:blue;"></view>
+          <view style="width:20px;height:20px;margin-left: 20rpx;border-radius:50%;background-color:white; border:0.5rpx solid #808080;"></view>
+      </view>
+   </view>
+
+   <view class="flex-wrp"  style="flex-direction:row;left:50px">
+      <button class='btn'  bindtap="chooseImage">
+          相册导入
+      </button>
+      <button class='btn'  bindtap="takePhoto">
+          开始拍摄
+      </button>
+    </view>
+</view>
